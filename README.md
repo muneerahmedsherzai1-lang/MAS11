@@ -1,8 +1,5 @@
 name: RDP
 
-on:
-  workflow_dispatch:
-
 jobs:
   secure-rdp:
     runs-on: [self-hosted, windows]
